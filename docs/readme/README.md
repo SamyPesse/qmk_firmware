@@ -1,4 +1,4 @@
-# Introduction
+# QMK Basics
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags) [![Build Status](https://travis-ci.org/qmk/qmk_firmware.svg?branch=master)](https://travis-ci.org/qmk/qmk_firmware) [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh) [![Docs Status](https://img.shields.io/badge/docs-ready-orange.svg)](https://docs.qmk.fm) [![GitHub contributors](https://img.shields.io/github/contributors/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/pulse/monthly) [![GitHub forks](https://img.shields.io/github/forks/qmk/qmk_firmware.svg?style=social&label=Fork)](https://github.com/qmk/qmk_firmware/)
 
@@ -14,7 +14,7 @@ Otherwise, you can clone it directly with `git clone https://github.com/qmk/qmk_
 
 ## How to Compile
 
-Before you are able to compile, you'll need to [install an environment](detailed-guides/getting_started_build_tools.md) for AVR or/and ARM development. Once that is complete, you'll use the `make` command to build a keyboard and keymap with the following notation:
+Before you are able to compile, you'll need to [install an environment](../detailed-guides/getting_started_build_tools.md) for AVR or/and ARM development. Once that is complete, you'll use the `make` command to build a keyboard and keymap with the following notation:
 
 ```text
 make planck/rev4:default
@@ -28,5 +28,5 @@ make preonic:default
 
 ## How to Customize
 
-QMK has lots of [features](features/) to explore, and a good deal of [reference documentation](http://docs.qmk.fm) to dig through. Most features are taken advantage of by modifying your [keymap](detailed-guides/keymap.md), and changing the [keycodes](reference/keycodes.md).
+QMK has lots of [features](../features/) to explore, and a good deal of [reference documentation](http://docs.qmk.fm) to dig through. Most features are taken advantage of by modifying your [keymap](../detailed-guides/keymap.md), and changing the [keycodes](../reference/keycodes.md).
 
